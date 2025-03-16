@@ -392,6 +392,9 @@ ol {
     color: #F4F4FD;
     max-width: 264px;
 }
+.div-foot {
+    display: block;
+}
 .foot-p {
     margin-bottom: 16px;
     font-weight: 500;
