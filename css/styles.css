@@ -376,7 +376,7 @@ ol {
     background-color: #2e2f42;
 }
 .foot-div {
-    display: flex;
+    display: block;
     align-items: baseline;
 }
 .foot-div-div {
