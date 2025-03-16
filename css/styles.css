@@ -125,7 +125,7 @@ ol {
 .sectiontop {
     background-color: #2E2F42;
     padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/head/people-office.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/people-office.jpg);
     max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
@@ -280,8 +280,10 @@ ol {
     justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.sect-contr-a::hover,
-.sect-contr-a::focus {
+.sect-contr-a:hover {
+    background-color: #404bbf;
+}
+.sect-contr-a:focus {
     background-color: #404bbf;
 }
 .sect-contr-icon {
@@ -315,7 +317,7 @@ ol {
     width: calc((100% - 48px) / 3);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.clscli::hover {
+.clscli:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -335,7 +337,7 @@ ol {
     background-color: #4d5ae5;
     height: 100%;
     width: 100%;
-    transform: translateY(100%);
+    transform: translateY(0%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -388,12 +390,12 @@ ol {
     max-width: 264px;
 }
 .foot-p {
+    margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    margin-bottom: 16px;
 }
 .foot-ul {
     display: flex;
@@ -413,8 +415,8 @@ ol {
     justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.foot-list-a::hover,
-.foot-list-a::focus {
+.foot-list-a:hover,
+.foot-list-a:focus {
     background-color: #31d0aa;
 }
 .foot-svg {
