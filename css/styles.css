@@ -390,12 +390,12 @@ ol {
     max-width: 264px;
 }
 .foot-p {
+    margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    margin-bottom: 16px;
 }
 .foot-ul {
     display: flex;
