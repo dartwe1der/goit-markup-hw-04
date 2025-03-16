@@ -376,7 +376,7 @@ ol {
     background-color: #2e2f42;
 }
 .foot-div {
-    display: block;
+    display: flex;
     align-items: baseline;
 }
 .foot-div-div {
@@ -407,6 +407,7 @@ ol {
     letter-spacing: 0.02em;
     color: #F4F4FD;
     max-width: 264px;
+    margin-bottom: 16px;
 }
 .foot-p {
     margin-bottom: 16px;
@@ -434,9 +435,7 @@ ol {
     justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.foot-list-a:hover {
-    background-color: #31d0aa;
-}
+.foot-list-a:hover,
 .foot-list-a:focus {
     background-color: #31d0aa;
 }
