@@ -1,0 +1,273 @@
+body {
+   font-family: "Roboto", sans-serif;
+   color: #434455;
+   background-color: #FFFFFF;
+   letter-spacing: 0.02em;
+   font-size: 16px;
+}
+
+img {
+   display: block;
+}
+
+.hdr {
+   border-bottom: 1px solid #e7e9fc;
+}
+
+.dvhdr{
+   display: flex;
+}
+
+.dvnv {
+   display: flex;
+   align-items: center;
+
+}
+
+.container {
+   padding: 0 15px 0 15px;
+   width: 1158px;
+   margin: 0 auto;
+}
+
+.ula {
+   display: flex;
+   gap: 40px;
+}
+
+ul,ol {
+   list-style: none;
+   padding-left: 0;
+   margin: 0;
+}
+.logo {
+   display: inline-block;
+   margin-bottom: 16px;
+   margin-right: 76px;
+   font-family: "Raleway", sans-serif;
+   font-weight: bold;
+   font-size: 18px;
+   line-height: 1.17;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: #4d5ae5;
+   text-decoration-line: none;
+}
+.stdio {
+   color: #2e2f42;
+}
+.stdio:hover {
+   color: #404BBF;
+}
+.nav-li {
+   padding: 24px 0;
+   text-decoration-line: none;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #2e2f42;
+}
+li > .nav-li:hover {
+   color: #404bbf;
+}
+li > .nav-li:focus {
+   color: #404bbf;
+}
+.container .padre {
+   display: flex;
+   gap: 40px;
+   font-style: normal;
+}
+
+.padrul {
+   display: flex;
+   gap: 40px;
+}
+
+.padro {
+   text-decoration-line: inherit;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #434455;
+}
+li > .padro:hover {
+   color: #404bbf;
+}
+li > .padro:focus {
+   color: #404bbf;
+}
+.huy {
+   padding: 188px 0px;
+   background-color: #2e2f42;
+}
+.gavno {
+   max-width: 496px;
+   font-size: 56px;
+   line-height: 1.07;
+   text-align: center;
+   letter-spacing: 0.02em;
+   color:#FFFFFF;
+}
+.butgav {
+   border-radius: 4px;
+   border: none;
+   height: 56px;
+   min-width: 169px;
+   display: block;
+   font-family: inherit;
+   background-color: #4D5AE5;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.04em;
+   color: #FFFFFF;
+   cursor: pointer;
+}
+.huy > .butgav:hover {
+   background-color:#404BBF;
+}
+.huy > .butgav:focus {
+   background-color:#404BBF;
+}
+
+.contr {
+   padding: 120px 0;
+}
+
+.visually-hidden {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   border: 0;
+   padding: 0;
+   white-space: nowrap;
+   clip-path: inset(100%);
+   clip: rect(0 0 0 0);
+   overflow: hidden;
+}
+
+.secul {
+   display: flex;
+   gap: 24px;
+}
+
+.secul .secli {
+   width: calc((100% - 72px) / 4);
+}
+
+.galava {
+   text-align: center;
+   margin-bottom: 8px;
+   margin-bottom: 8px;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
+   color: #2e2f42;
+}
+.pogolovi {
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #434455;
+}
+.sect {
+   padding: 120px 0;
+   background-color: #F4F4FD;
+}
+.golov {
+   margin-bottom: 72px;
+   font-size: 36px;
+   line-height: 1.11;
+   text-align: center;
+   letter-spacing: 0.02em;
+   text-transform: capitalize;
+   color: #2e2f42;
+}
+
+.ulsec {
+   display: flex;
+   gap: 24px;
+}
+
+.ulsec .list {
+   width: calc((100% - 72px) / 4);
+   border-radius: 0px 0px 4px 4px;
+   background-color: #FFFFFF;
+}
+
+.cldv {
+   padding: 32px 0;
+}
+
+.parag {
+   text-align: center;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #434455;
+}
+
+.clsc {
+   padding-top: 120px;
+   padding-bottom: 120px;
+}
+
+.glav {
+   margin-bottom: 72px;
+   font-size: 36px;
+   line-height: 1.11;
+   text-align: center;
+   letter-spacing: 0.02em;
+   text-transform: capitalize;
+   color: #2e2f42;
+}
+
+.clscul {
+   display: flex;
+   flex-wrap: wrap;
+   column-gap: 24px;
+   row-gap: 48px;
+}
+
+.clscul .clscli {
+   width: calc((100% - 48px) / 3);
+}
+
+.clscdv {
+   padding: 32px 16px;
+   border: 1px solid #e7e9fc;
+   border-top: none;
+   margin-bottom: 8px;
+}
+
+.minglav {
+   margin-bottom: 8px;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
+   color: #2e2f42;
+}
+.paraq {
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #434455;
+}
+.foot {
+   padding: 100px 0;
+   background-color: #2e2f42;
+}
+.spn {
+   color: #F4F4FD;
+}
+.par {
+   max-width: 264px;
+   line-height: 1.5;
+   color: #F4F4FD;
+   letter-spacing: 0.02em;
+}
