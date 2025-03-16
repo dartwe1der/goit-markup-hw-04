@@ -296,13 +296,14 @@ ol {
 }
 
 .glav {
-    margin-bottom: 72px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2e2f42;
+    text-align: center;
+    margin-bottom: 72px;
 }
 
 .clscul {
@@ -315,7 +316,6 @@ ol {
 .clscli {
     width: calc((100% - 48px) / 3);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transform: translateY(100%);
 }
 .clscli:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -437,9 +437,10 @@ ol {
     justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.foot-list-a:hover,
-.foot-list-a:focus,
-.foot-list-a:focus-visible {
+.foot-list-a:hover {
+    background-color: #31d0aa;
+}
+.foot-list-a:focus {
     background-color: #31d0aa;
 }
 .foot-svg {
