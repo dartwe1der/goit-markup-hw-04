@@ -338,12 +338,12 @@ ol {
     background-color: #4d5ae5;
     height: 100%;
     width: 100%;
-    transform: translateY(100%);
+    transform: translateY(0%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clscli-div-p:hover .description{
-    transform: translateY(0%);
+.clscli-div-p:hover{
+    transform: translateY(100%);
 }
 
 .clscdv {
@@ -394,13 +394,13 @@ ol {
     color: #F4F4FD;
     max-width: 264px;
 }
-.foot-p {
+.foot-p p{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    margin-bottom: 16px !important;
+    margin-bottom: 16px;
 }
 .foot-ul {
     display: flex;
