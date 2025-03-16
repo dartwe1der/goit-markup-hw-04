@@ -405,9 +405,9 @@ ol {
     letter-spacing: 0.02em;
     color: #F4F4FD;
     max-width: 264px;
-    margin-bottom: 16px;
 }
 .foot-p {
+    margin-top: 0;
     margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
