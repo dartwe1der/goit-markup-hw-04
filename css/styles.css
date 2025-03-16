@@ -92,8 +92,8 @@ ol {
     border-radius: 2px;
 }
 
-li>.nav-li:hover,
-li>.nav-li:focus {
+.nav-li:hover,
+.nav-li:focus {
     color: #404bbf;
 }
 
@@ -125,7 +125,7 @@ li>.nav-li:focus {
 .sectiontop {
     background-color: #2E2F42;
     padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/head/people-office.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/head/people-office.jpg);
     max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
