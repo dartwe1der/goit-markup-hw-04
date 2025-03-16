@@ -27,9 +27,9 @@ img {
 }
 
 .container {
-    padding: 0 15px 0 15px;
     width: 1158px;
     margin: 0 auto;
+    padding: 0 15px 0 15px;
 }
 
 .ula {
@@ -45,9 +45,9 @@ ol {
 }
 
 .logo {
-    display: inline-block;
-    margin-bottom: 16px;
+    display: block;
     margin-right: 76px;
+    padding: 24px 0;
     font-family: "Raleway", sans-serif;
     font-weight: bold;
     font-size: 18px;
@@ -55,7 +55,6 @@ ol {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    text-decoration-line: none;
 }
 
 .stdio {
@@ -74,6 +73,7 @@ ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    display: block;
 }
 
 .studio {
@@ -112,10 +112,13 @@ li>.nav-li:focus {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding: 24px 0;
+    display: block;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-li>.padro:hover,
-li>.padro:focus {
+.padro:hover,
+.padro:focus {
     color: #404bbf;
 }
 
