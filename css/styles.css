@@ -342,7 +342,7 @@ ol {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clscli-div-p:hover {
+.clscli-div-p:hover .description{
     transform: translateY(0%);
 }
 
@@ -400,7 +400,7 @@ ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    margin-bottom: 16px;
+    margin-bottom: 16px !important;
 }
 .foot-ul {
     display: flex;
